@@ -4,7 +4,7 @@ Projeto simples e direto: uma calculadora de IMC feita com JavaScript puro e est
 
 ## 🚀 Demonstração
 
-👉 [Acessar aplicação online](https://chriszanella.github.io/project-imc/)
+👉 [Acessar aplicação online](https://chriszanella.github.io/calculadora-imc/)
 
 ## ⚙️ Tecnologias
 
