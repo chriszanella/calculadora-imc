@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="./src/output.css">
+
+  <title>JavaScript - IMC</title>
+</head>
+<body class="flex justify-center items-center w-full h-screen bg-cyan-700">
+  
+  <section class="flex flex-col gap-6 bg-gray-200 rounded-md p-4 shadow-lg">
+
+    <!-- Tabela IMC -->
+    <h1 class="text-xl font-bold ">Tabela <abbr title="Índice de massa corporal" class="cursor-default no-underline">IMC</abbr></h1>
+
+    <div class="flex gap-36">
+
+      <!-- IMC -->
+      <div class="flex flex-col gap-2">
+        <h2><abbr title="índice de massa corporal" class="cursor-default no-underline text-md font-medium">IMC</abbr></h2>
+        <p>Menos do que 18,5</p>
+        <p>Entre 18,5 e 24,9</p>
+        <p>Entre 25 e 29,9</p>
+        <p>Entre 30 e 34,9</p>
+        <p>Entre 35 e 39,9</p>
+        <p>Mais do que 40</p>
+      </div>
+      <!-- Resultado -->
+      <div class="flex flex-col gap-2">
+          <h2 class="cursor-default no-underline text-md font-medium">Resultado</h2>
+          <p>Abaixo do peso</p>
+          <p>Peso normal</p>
+          <p>Sobrepeso</p>
+          <p>Obesidade grau 1</p>
+          <p>Obesidade grau 2</p>
+          <p>Obesidade grau 3</p>
+      </div>
+    </div>
+
+    <!-- Calcule seu IMC -->
+    <div class="flex flex-col gap-2">
+      <h2 class="text-xl font-bold">Calcule seu <abbr title="Índice de massa corporal" class="cursor-default no-underline">IMC</abbr></h2>
+      <form id="calculeForm" action="#" class="flex flex-col gap-2">
+        <!-- Peso -->
+        <label for="peso">Peso:</label>
+        <input type="text" name="peso" id="peso" class="border-1 h-[35px]">
+        
+        <!-- Altura -->
+        <label for="altura">Altura: </label>
+        <input type="number" name="altura" id="altura" class="border-1 h-[35px]">
+
+        <!-- Enviar -->
+        <button type="submit" class="bg-green-700 rounded-sm h-[35px] mt-2 text-white font-semibold hover:bg-green-800 duration-300 cursor-pointer">Enviar</button>
+
+
+      </form>
+    </div>
+
+  </section>
+
+  <script src="./src/main.js"></script>
+
+</body>
+</html>
